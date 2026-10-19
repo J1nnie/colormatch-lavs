@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css"/>
+    <title>ColorMatch</title>
+</head>
+<body>
+<header> 
+    <nav>
+    <ul>
+   <li><a href="inicio.html">Inicio</a></li>
+      <li><a href="en.html">Biblioteca</a></li>
+         <li><a href="recursos.html">Recursos</a></li>
+            <li><a href="informações.html">Mais informações</a></li>
+             <li><a href="site.html">Sobre o site</a></li>
+
+
+    </ul>
+    
+   </nav>
+</header>
+<main>
+
+        <h1>Recursos</h1>
+
+        <p>
+            <br>Explore cores usando a câmera e a roda de cores.
+        </p>
+
+
+        <!-- CÂMERA -->
+
+        <section class="camera">
+
+            <h2>Câmera</h2>
+
+            <video id="camera" autoplay></video>
+
+            <br>
+
+            <button id="abrirCamera">
+                Abrir câmera
+            </button>
+
+        </section>
+
+
+        <!-- RODA DE CORES -->
+
+        <section class="roda">
+
+            <h2><br>Círculo de cores</h2>
+
+            <div id="colorWheel"></div>
+
+            <p>
+                Cor selecionada:
+                <span id="selectedColor">Nenhuma</span>
+            </p>
+            <p>
+                Código HEX : <span id="selectedHEX">---</span>
+            </p>
+
+            <div id="coresEscolhidas"></div>
+            <button
+            id="adicionarCor">Adicionar cor</button>
+            <button id="salvarPaleta">Salvar paleta</button>
+            <p id="mensagemPaleta"></p>
+                
+
+        </section>
+
+    </main>
+    <script src="./illit.js"></script>
+    
+</body>
+</html>

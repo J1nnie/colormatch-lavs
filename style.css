@@ -1,0 +1,422 @@
+body {
+    background-color: #FEE0FF;
+    font-family: Just Me Again Down Here;
+    color: #bd006e;
+}
+header{
+    background-color: #ffffff;
+    padding: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+
+}
+a{
+    color: #bd006e;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+a:hover{
+color: #560000;
+}
+
+main{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.titulo-principal{
+    color: white;
+    font-size: 60px;
+}
+
+p{
+    color: #560000;
+    font-size: 18px;
+}
+.tipos-cores{
+    color: #bd006e;
+    font-size: 30px;
+    margin: 20px 40px;
+}
+.explicação{
+    color: #560000;
+    font-size: 25px;
+    margin: 20px 40px;
+}
+.explica{
+    color: #560000;
+    font-size: 25px;
+    margin: 20px 40px;
+}
+.exemplo{
+    color: #bd006e;
+    font-size: 20px;
+    margin: 20px 40px;
+}
+.cores{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+.cor{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.codigo{
+    position: absolute;
+    top: 50px;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+}
+.paleta{
+    margin: 50px auto;
+    max-width: 700px;
+}
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 35px auto;
+}
+.vermelho{
+    background-color: #681015;
+    position: relative;
+}
+.amarelo{
+    background-color: #fff1b2;
+    position: relative;
+}
+.azul{
+    background-color: #b8e7f3;
+    position: relative;
+}
+.verde{
+    background-color: #16853b;
+    position: relative;
+}
+.roxo{
+    background-color: #8b4f91;
+    position: relative;
+}
+.rosa{
+    background-color: #c0008f;
+    position: relative;
+}
+.cores-exemplo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+} 
+.cores-exemplo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.cores-exemplo1 h1{
+    color: #560000;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.cores-exemplo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+}
+.cores-exemplo2 h1{
+    color: #560000;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 15px;  
+}
+.cores-exemplo3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.cores-exemplo3 h1{
+    color: #560000;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.paletas{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 80px;
+
+    padding: 40px 80px;
+    background-color: #FEE0FF;
+}
+.cor-p6{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p7{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p8{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p9{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p0{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corA1{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corA2{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corA3{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corA4{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corA5{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corC1{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corC2{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corC3{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corC4{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.corC5{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-paletaR{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.cor-paletaS{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.cor-p10{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p20{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p30{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p40{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p50{
+     width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p60{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p01{
+     width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p02{
+     width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p03{
+     width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p04{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cor-p05{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+    
+}
+.cor-p06{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+}
+.cores-paleta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px; 
+    justify-content: center; 
+}
+.cor-p1{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+    justify-content: center;
+}
+.cor-p2{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+    justify-content: center;
+}
+.cor-p3{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+    justify-content: center;
+}
+.cor-p4{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+    justify-content: center;
+}
+.cor-p5{
+    width: 66px;
+    height: 66px;
+    border-radius: 2px;
+    justify-content: center;
+}
+#botaoPesquisa{
+    background-color: #bd006e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#campoPesquisa{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bd006e;
+    border-radius: 15px;
+    width: 300px;
+}
+#colorWheel {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px auto;
+    cursor: crosshair;
+    display: flex;
+    background:
+    radial-gradient(circle, white, transparent 50% , black 100%),
+    conic-gradient( red, orange, yellow, green, cyan, blue, purple, magenta, red);
+
+
+}
+.teoria-cores{
+    color: #bd006e;
+    font-size: 30px;
+    margin: 20px 40px;
+}
+#resultadoPesquisa{
+    color: #410846;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    display: block;
+} 
+#adicionarCor{
+    background-color: #50243e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px;
+}
+#salvarPaleta{
+    background-color: #915199;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    justify-content: space-between;
+    gap: 15px;
+    margin:20px;
+}
